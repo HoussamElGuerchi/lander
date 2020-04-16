@@ -58,7 +58,7 @@
                         </div>";
                     } else {
                         $_SESSION['idClient'] = $client['idClient'];
-                        header("Location: index.php");
+                        exit(header("Location: index.php"));
                     }
                 }
 

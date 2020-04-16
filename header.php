@@ -1,6 +1,5 @@
 <?php
     session_start();
-    $_SESSION['auth'] = true;
 ?>
 <html lang="en">
 <head>

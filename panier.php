@@ -15,7 +15,8 @@
         $total = 0;
 
     } else {
-        header("Location: authent.php");
+        // exit(header("Location: authent.php"));
+        echo '<script language="javascript">window.location.href ="authent.php"</script>';
     }
 ?>
 
