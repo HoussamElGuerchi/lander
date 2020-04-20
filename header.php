@@ -81,6 +81,9 @@
                     <a class="nav-link" href="contact.php"><i class="far fa-envelope"></i> Contact</a>
                 </li>
                 <li class="nav-item mr-3 ml-3">
+                    <a class="nav-link" href="projet-e-commerce.docx" download><i class="far fa-file-pdf"></i> Telecharger Rapport</a>
+                </li>
+                <li class="nav-item mr-3 ml-3">
                     <?php
                         if ( isset($_SESSION['idClient']) ) {
                             echo "<a class='nav-link' href='deconnex.php'><i class='fas fa-door-open'></i> Deconnexion</a>";

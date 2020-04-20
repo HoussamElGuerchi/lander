@@ -11,7 +11,7 @@
             $resultPanier = mysqli_query($conn, "select * from panier where idClient='$idClientActive'");
             $panier = mysqli_fetch_assoc($resultPanier);
 
-            //Ajouter la commande au base de donnees
+            //Ajouter la commande à la base de donnees
             $refPanier = $panier['refPanier'];
             $idProduit = $_GET['idProduit'];
             $quantite = $_GET['quantite'];
